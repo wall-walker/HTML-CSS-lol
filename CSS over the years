@@ -1,0 +1,49 @@
+/*Applying back-ground color*/
+body {
+  background-color: azure;
+}
+.headersdiv {text-align: center;
+ }
+h1 {
+  font-size: 36pt;
+  color: seagreen;
+}
+h3 {  font-size: 26pt; }
+h5 {  font-size: 20pt; }
+.bodydiv { font-size: 20pt; 
+font-family: verdana; }
+#Mypic 
+{ float: center;
+  border: solid;
+  border-width: 2px; border-radius: 10px;
+  margin: 0px 0px 0px 0px;
+  height: 300px;
+  width: 300px;}
+.Mypicdescription 
+{
+   text-align: left; margin:-25% 0% 0% 25%; width:12% }
+.experiment1 {
+  height: 50%;
+   width: 49%;
+  text-align: left;
+  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
+  float: left;
+  background-color: lavender;
+}
+.experiment2 {
+  height: 50%;
+   width: 49%;
+  text-align: left;
+  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
+  float: right;
+  background-color: lavender;
+}
+.haiku {
+  text-align: center;
+  font-color: white;
+  background-color: lavender;
+  border-radius: 10px;
+  margin: 10px 10px 10px 500px;
+  width: 20%;
+}
+table {margin:auto;}
