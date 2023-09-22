@@ -51,7 +51,7 @@
       </ul>
     </div>
 <!--You could experiment here like I did. 1.) I created 1 list and put a <p> between the <li> to see how it'd look. 2.) Next, I created 2 lists and created a separate <p> in their mid--> 
-<p> May your OCD kick in while choosing the experiment you prefer. Personally, I like 2 for its placement of dots. </p>
+<p> May your attention to detail kick in while choosing the experiment you prefer. Personally, I like 2 for its placement of dots. </p>
     
 <!--Learn Tables and Nesting-->    
     <p> Next up is Tables and Nesting. As I'd got the hang of lists, my wait on tables wasn't too long. The 4 things to note are table, tr, th and td. </p> 
