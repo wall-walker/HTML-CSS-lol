@@ -1,0 +1,84 @@
+ <html>
+   <head>
+    <title>_Wallwalker Web Woes</title>
+      </head>
+  <body>
+    <div class="headersdiv"> 
+ <!--Playing with headers. Also realised seagreen is a valid colour in html--> 
+      <h1>Earth to _Wallwalker  </h1>
+      <h3> I aim to be the <s>world's</s> universe's top coder </h3>
+      <h5> This is just the beginning of the end  </h5>
+    </div>
+    <div class="bodydiv"> 
+<!--My vision-->     <p> Hi everyone! I am <b>_Wallwalker</b> and today I start learning to code. Bit by bit (or one could say byte by byte) I wish to take over the web world. They see me rollin', they hatin'</p>
+<!--02 may-->     <p> <em> 02 May 2019 </em> </p>
+<!--'Tag'ging-->     <p> 
+      <b>I am not trying nested tags.</b>
+      <em>I am not trying nested tags.</em>
+      <b>I <em>am</em> trying nested tags. </b>
+      <em>I <b>am</b> trying nested tags. </em>
+      That's right. I got it.
+      </p>
+<!--03 may-->      <p> <em> 03 May 2019 </em> </p>
+<!--How to display images inline-->  
+      <!--para-->   <p>  <img src="https://images.gr-assets.com/users/1546710708p6/24469366.jpg" id="Mypic" width="250px" />
+      </p>
+      <div class="Mypicdescription">   
+        <p> Here's what I look like on my best days. I almost thought things went out of line here, but they're inline.  </p> </div>
+  <!--Linkitin--> 
+      <p> Fun fact: The following site was founded by Paul Phillips in the year I was born. I'd say it was the year 2 web legends were born. </p>
+      <a href="https://theuselessweb.com/"> With all due credits to Paul Phillips and his descendants</a>
+<!--04 may-->      <p> <em> 04 May 2019 </em> </p>
+      <p> May the 4th be with you </p>
+      <p> Today I learned to list 10 things I hate about you:
+<!--Experiment 1-->   
+    <div class="experiment1">  
+      <ul> 
+        <Li> I hate the way you talk to me, and the way you cut your hair. </li>
+        <Li> I hate the way you drive may car </li>
+      </ul>
+      <p> .... </p> 
+      <ul> <li> But mostly I hate the way I don't hate you.... Awww </li> </ul>
+      </ul> 
+    </div>
+<!--Experiment 2-->   
+    <div class="experiment2">
+    <ul> 
+        <Li> I hate the way you talk to me, and the way you cut your hair. </li>
+        <Li> I hate the way you drive may car </li>
+      <p> .... </p>
+        <li> But mostly I hate the way I don't hate you.... Awww </li> 
+      </ul>
+    </div>
+<!--You could experiment here like I did. 1.) I created 1 list and put a <p> between the <li> to see how it'd look. 2.) Next, I created 2 lists and created a separate <p> in their mid--> 
+<p> May your OCD kick in while choosing the experiment you prefer. Personally, I like 2 for its placement of dots. </p>
+    
+<!--Learn Tables and Nesting-->    
+    <p> Next up is Tables and Nesting. As I'd got the hang of lists, my wait on tables wasn't too long. The 4 things to note are table, tr, th and td. </p> 
+   <P> Here's an apt example for this week. As I wait for next Monday to come, I ponder over who wins the Game of Thrones... 
+<table>
+  <tr> <th> My order? </th> </tr>
+  <tr> <td> Targaryen <ol> <li> Jon </li> <li> Dany </li> </ol> </td> </tr>  
+   <tr> <td> Stark (Independent Winterfell) <ol> <li> Sansa </li> <li> Jon </li></td> </tr>  
+   <tr> <td> Greyjoy (Go back to where they came from) </td> </tr> 
+   <tr> <td> Lannister (Go back to where they came from) </td> </tr>
+     </table>
+     
+<!--Composition-->     <p>Another important concept to be learnt above is <b>Composition</b>. It's the art of combining simple things to create complex beauties. You can put table in list, list in table, table in table, list in list, you get the gist. It follows not only in HTML but also in C, Java, Python and any programming you do. Composition, remember the name. As we wrap this concept up, I wish to compose a haiku in memory of this week's episode:</P>
+    <div class="haiku">
+     <table> 
+      <tr> <td> The long night has come. </td> </tr>
+      <tr> <td> With Viserion I conquer. </td> </tr>       <tr> <td> Valyrian stab me. </td> </tr>
+    </table>   
+    </div>
+    <p> Fin. </p>
+       </div>
+    </div>
+<div> 
+<!--11 may--> <p> <em> 11 May 2019 </em> </p>
+  <p> After several bouts (days,scratch that, a week) of procrastination, I opened my laptop today with the intent of learning to add some finishing touches to my web page. I azure you, I'll start easy by simply changing its back-ground color. </p>
+  <!--29 Jan--> <p> <em> 29 Jan 2022 </em> </p>
+  <p> After several years, 2 jobs later, CashFlo and now in Polygon, I opened my laptop today with the intent of getting back to learning how to code</p>
+</div>
+  </body>
+</html>
