@@ -10,7 +10,7 @@
       <h5> This is just the beginning of the end  </h5>
     </div>
     <div class="bodydiv"> 
-<!--My vision-->     <p> Hi everyone! I am <b>_Wallwalker</b> and today I start learning to code. Bit by bit (or one could say byte by byte) I wish to take over the web world. They see me rollin', they hatin'</p>
+<!--My vision-->     <p> Hi everyone! I am <b>_Wallwalker</b> and today I start re-learning to code. Bit by bit (or one could say byte by byte) I wish to take over the web world. They see me rollin', they hatin'</p>
 <!--02 may-->     <p> <em> 02 May 2019 </em> </p>
 <!--'Tag'ging-->     <p> 
       <b>I am not trying nested tags.</b>
@@ -72,13 +72,24 @@
     </table>   
     </div>
     <p> Fin. </p>
-       </div>
-    </div>
-<div> 
+        
+   <div class="Webwoes">
 <!--11 may--> <p> <em> 11 May 2019 </em> </p>
   <p> After several bouts (days,scratch that, a week) of procrastination, I opened my laptop today with the intent of learning to add some finishing touches to my web page. I azure you, I'll start easy by simply changing its back-ground color. </p>
   <!--29 Jan--> <p> <em> 29 Jan 2022 </em> </p>
-  <p> After several years, 2 jobs later, CashFlo and now in Polygon, I opened my laptop today with the intent of getting back to learning how to code</p>
+  <p> After several years, 2 jobs later, CashFlo and now joining Polygon, I opened my laptop today with the intent of getting back to learning how to code. I managed 5 videos</p>
+<a href="https://www.youtube.com/playlist?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk"> Data Structures - Rob Edwards</a>
+  <!--09 Feb--> <p> <em> 09 Feb 2024 </em> </p>
+  <p> After another 2 years, I attempted to pick coding again, this time from Patrick Collins. Deployed my 1st smart contract (Simple Storage on Sepolia) </p>
+  <a href="https://www.youtube.com/watch?v=M576WGiDBdQ&t=5s"> 
+    Solidity, Blockchain smart contracts</a>
+  
+  <!--23 Apr--> <p> <em> 23 Apr 2024 </em> </p>
+  <p> After 2.5 hours of getting frustrated trying to figure out Webflow and Wix for creating a simple website, I decided to try out Weebly. I'd seen a YC video by its founder. And voila! Guess I just needed better tools </p>
+  <a href="https://appaclub.weebly.com/"> 
+    Appa Club Home</a>
+ <div> 
+  </a>
 </div>
   </body>
 </html>
