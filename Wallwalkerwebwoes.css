@@ -47,12 +47,3 @@ font-family: verdana; }
   width: 20%;
 }
 table {margin:auto;}
-
-.webwoes {
-  text-align: left;
-  font-color: black;
-  background-color: azure;
-  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
-  margin: 10px 10px 10px 500px;
-  width: 20%;
-}
