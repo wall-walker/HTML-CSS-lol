@@ -51,6 +51,9 @@ table {margin:auto;}
 .webwoes {
   text-align: left;
   font-color: black;
-  background-color: white;
+  background-color: azure;
+  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
+  margin: 1px 1px 1px 50px;
+  width: 5%;
   
 }
