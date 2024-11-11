@@ -1,1 +1,1 @@
-Own website https://wall-walker.github.io/HTML-CSS-lol/
+Own website https://www.ruchawalawalkar.com
