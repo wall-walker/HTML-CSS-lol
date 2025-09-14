@@ -59,7 +59,7 @@ footer {
   border-top: 2px solid lightgray;
 }
 footer a {
-  color: seagreen;
+  color: skyblue;
   font-size: 24px;   /* bigger icons */
   margin: 0 15px;
   transition: color 0.3s ease, transform 0.2s ease;
