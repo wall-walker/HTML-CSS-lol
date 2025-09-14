@@ -30,6 +30,14 @@ font-family: verdana; }
   float: left;
   background-color: lavender;
 }
+.experiment1 {
+  height: 50%;
+   width: 49%;
+  text-align: left;
+  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
+  float: left;
+  background-color: lavender;
+}
 .experiment2 {
   height: 50%;
    width: 49%;
