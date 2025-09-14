@@ -2,68 +2,45 @@
 body {
   background-color: azure;
 }
-
-/* Headers */
-.headersdiv {
-  text-align: center;
-}
+.headersdiv {text-align: center;
+ }
 h1 {
   font-size: 36pt;
   color: seagreen;
 }
-h3 {
-  font-size: 26pt;
-}
-h5 {
-  font-size: 20pt;
-}
-
-/* Body */
-.bodydiv {
-  font-size: 20pt;
-  font-family: verdana;
-}
-
-/* Profile picture */
-#Mypic {
-  display: block;           /* fixes centering */
-  margin: 20px auto;        /* centers horizontally */
-  border: solid 2px;
+h3 {  font-size: 26pt; }
+h5 {  font-size: 20pt; }
+.bodydiv { font-size: 20pt; 
+font-family: verdana; }
+#Mypic 
+{
+  display: block;        /* ✅ fixed centering */
+  margin: 0 auto;        /* ✅ center horizontally */
+  border: solid;
+  border-width: 2px; 
   border-radius: 10px;
   height: 300px;
   width: 300px;
 }
-.Mypicdescription {
-  text-align: left;
-  margin: -25% 0% 0% 25%;
-  width: 12%;
-}
-
-/* Experiments */
+.Mypicdescription 
+{
+   text-align: left; margin:-25% 0% 0% 25%; width:12% }
 .experiment1 {
   height: 50%;
-  width: 49%;
+   width: 49%;
   text-align: left;
-  border: solid;
-  border-width: 1px;
-  border-color: ghostwhite;
-  border-radius: 10px;
+  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
   float: left;
   background-color: lavender;
 }
 .experiment2 {
   height: 50%;
-  width: 49%;
+   width: 49%;
   text-align: left;
-  border: solid;
-  border-width: 1px;
-  border-color: ghostwhite;
-  border-radius: 10px;
+  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
   float: right;
   background-color: lavender;
 }
-
-/* Haiku */
 .haiku {
   text-align: center;
   font-color: white;
@@ -72,13 +49,9 @@ h5 {
   margin: 10px 10px 10px 500px;
   width: 20%;
 }
+table {margin:auto;}
 
-/* Tables */
-table {
-  margin: auto;
-}
-
-/* Footer */
+/* ✅ Footer styles */
 footer {
   background-color: ghostwhite;
   text-align: center;
@@ -89,11 +62,4 @@ footer {
 }
 footer a {
   color: seagreen;
-  font-size: 24px;   /* bigger icons */
-  margin: 0 15px;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-footer a:hover {
-  color: darkgreen;
-  transform: scale(1.2); /* grow slightly on hover */
-}
+  font-size:
