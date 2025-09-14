@@ -1,49 +1,98 @@
-/*Applying back-ground color*/
+/* Applying background color */
 body {
   background-color: azure;
+  margin: 0;
+  font-family: verdana, sans-serif;
 }
-.headersdiv {text-align: center;
- }
+
+/* Header section */
+.headersdiv {
+  text-align: center;
+}
 h1 {
   font-size: 36pt;
   color: seagreen;
 }
-h3 {  font-size: 26pt; }
-h5 {  font-size: 20pt; }
-.bodydiv { font-size: 20pt; 
-font-family: verdana; }
-#Mypic 
-{ float: center;
+h3 {
+  font-size: 26pt;
+}
+h5 {
+  font-size: 20pt;
+}
+
+/* Body text */
+.bodydiv {
+  font-size: 20pt;
+}
+
+/* Profile picture */
+#Mypic {
+  display: block;
+  margin: 20px auto;
   border: solid;
-  border-width: 2px; border-radius: 10px;
-  margin: 0px 0px 0px 0px;
+  border-width: 2px;
+  border-radius: 10px;
   height: 300px;
-  width: 300px;}
-.Mypicdescription 
-{
-   text-align: left; margin:-25% 0% 0% 25%; width:12% }
-.experiment1 {
+  width: 300px;
+}
+.Mypicdescription {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Experiments */
+.experiment1, .experiment2 {
   height: 50%;
-   width: 49%;
+  width: 49%;
   text-align: left;
-  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
-  float: left;
+  border: solid 1px ghostwhite;
+  border-radius: 10px;
   background-color: lavender;
+}
+.experiment1 {
+  float: left;
 }
 .experiment2 {
-  height: 50%;
-   width: 49%;
-  text-align: left;
-  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
   float: right;
-  background-color: lavender;
 }
+
+/* Haiku block */
 .haiku {
   text-align: center;
-  font-color: white;
+  color: black;
   background-color: lavender;
   border-radius: 10px;
-  margin: 10px 10px 10px 500px;
-  width: 20%;
+  margin: 20px auto;
+  width: 40%;
+  padding: 10px;
 }
-table {margin:auto;}
+
+/* Tables */
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+}
+
+/* Footer styling */
+footer {
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14pt;
+  border-top: 2px solid lightgray;
+}
+footer a {
+  color: seagreen;
+  font-size: 24px;   /* bigger icons */
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+footer a:hover {
+  color: darkgreen;
+  transform: scale(1.2); /* grow slightly on hover */
+}
