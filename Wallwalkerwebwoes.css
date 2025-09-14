@@ -30,14 +30,6 @@ font-family: verdana; }
   float: left;
   background-color: lavender;
 }
-.experiment1 {
-  height: 50%;
-   width: 49%;
-  text-align: left;
-  border: solid; border-width: 1px; border-color: ghostwhite; border-radius: 10px;
-  float: left;
-  background-color: lavender;
-}
 .experiment2 {
   height: 50%;
    width: 49%;
@@ -55,24 +47,3 @@ font-family: verdana; }
   width: 20%;
 }
 table {margin:auto;}
-
-
-/* Footer styles */
-footer {
-  background-color: ghostwhite;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-  font-size: 14pt;
-  border-top: 2px solid lightgray;
-}
-footer a {
-  color: skyblue;
-  font-size: 24px;   /* bigger icons */
-  margin: 0 15px;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-footer a:hover {
-  color: darkgreen;
-  transform: scale(1.2); /* grow slightly on hover */
-}
