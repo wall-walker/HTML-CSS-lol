@@ -41,7 +41,8 @@ h5 {
 }
 
 /* Experiments */
-.experiment1, .experiment2 {
+.experiment1,
+.experiment2 {
   height: 50%;
   width: 49%;
   text-align: left;
@@ -62,37 +63,3 @@ h5 {
   color: black;
   background-color: lavender;
   border-radius: 10px;
-  margin: 20px auto;
-  width: 40%;
-  padding: 10px;
-}
-
-/* Tables */
-table {
-  margin: auto;
-  border-collapse: collapse;
-}
-table th, table td {
-  padding: 5px 10px;
-  border: 1px solid lightgray;
-}
-
-/* Footer styling */
-footer {
-  background-color: ghostwhite;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-  font-size: 14pt;
-  border-top: 2px solid lightgray;
-}
-footer a {
-  color: seagreen;
-  font-size: 24px;   /* bigger icons */
-  margin: 0 15px;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-footer a:hover {
-  color: darkgreen;
-  transform: scale(1.2); /* grow slightly on hover */
-}
