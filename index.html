@@ -840,6 +840,19 @@
   let currentPage = 0;
   const totalPages = 12;
 
+ // On load, check if URL has a hash like #page-3 and jump there
+window.addEventListener('load', () => {
+  const hash = window.location.hash;
+  if (hash && hash.startsWith('#page-')) {
+    const n = parseInt(hash.replace('#page-', ''));
+    if (!isNaN(n) && n >= 0 && n < totalPages) {
+      document.getElementById('page-0').classList.remove('active');
+      document.getElementById('page-' + n).classList.add('active');
+      currentPage = n;
+    }
+  }
+});
+ 
   function goToPage(n) {
     if (n < 0 || n >= totalPages) return;
     const current = document.getElementById('page-' + currentPage);
